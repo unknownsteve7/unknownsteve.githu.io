@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    margin: 0;
+}
+.container{
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+.navbar{
+    display:flex; 
+    flex-direction: row;
+    justify-content: space-between ;
+    background-color: grey;
+}
+.navbar-left{
+    padding-left: 50px;
+}
+.logo-image{
+    height: 45px;
+    width: 30px;
+}
+.navbar-right{
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.a-element{
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 85vh;
+    align-content: center;
+}
+.aboutme{
+    display: flex;
+    flex-direction: row;
+    height: 650px;
+    background-color: darksalmon;
+    
+}
+.aboutmel{
+    padding-left: 400px;
+    padding-top: 270px;
+    padding-bottom: 250px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+.aboutmer{
+    padding-top: 230px;
+    padding-right: 70px;
+    font-family: "Montserrat", sans-serif;
+    padding-left: 50px;
+    text-align: right;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+}
+.home-right{
+    width:50vw;
+    padding-left:100px ;
+}
+.homep{
+    font-family: "Afacad Flux", sans-serif;
+    font-size: 20px;
+}
+.homeh{
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    border: 2px solid;
+    border-radius: 25px;
+    outline: black;
+
+}
+.con-h1{
+    color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+.contact{
+    text-align: center;
+    background-color: rgb(173, 156, 23);
+
+}
+.contact-info{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 25px;
+}
+.social-icon-img{
+    height: 50px;
+    padding: 20px;
+}
+.border{
+    background-color:pink;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+}
